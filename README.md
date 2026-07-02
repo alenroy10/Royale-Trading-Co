@@ -5,7 +5,7 @@ Premium export-brand website for Indian cardamom and spices — elegant white & 
 ## Brand
 
 - **Name:** Royale Trading Company
-- **Contact:** +91 75109 95173 · alenroy1000@gmail.com
+- **Contact:** +91 75109 95173 · export@royaletradingco.com
 - **Palette:** Forest green `#1F4D3A`, botanical `#2E6B4B`, leaf `#6FAE7A`, warm white `#FAFAF7`, muted gold accents `#C9A86A`
 - **Typography:** Playfair Display + Cormorant Garamond (headings), Inter (body)
 
@@ -32,7 +32,7 @@ Deploy the `dist/` folder to Netlify, Vercel, or GitHub Pages.
 
 ## Contact form
 
-Submissions are sent via [FormSubmit](https://formsubmit.co) to **alenroy1000@gmail.com**.
+Submissions are sent via [FormSubmit](https://formsubmit.co) to **export@royaletradingco.com**.
 
 **First-time setup:** Submit the form once, then open the activation email from FormSubmit and click the link. After that, every inquiry arrives in your inbox with name, company, inquiry type, and message.
 

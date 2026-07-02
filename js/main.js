@@ -131,7 +131,7 @@ revealEls.forEach((el) => revealObserver.observe(el));
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 // Contact form — FormSubmit (https://formsubmit.co) delivers to business email
-const FORM_ENDPOINT = 'https://formsubmit.co/ajax/alenroy1000@gmail.com';
+const FORM_ENDPOINT = 'https://formsubmit.co/ajax/export@royaletradingco.com';
 const inquiryLabels = {
   wholesale: 'Wholesale / export',
   samples: 'Sample request',
@@ -205,7 +205,7 @@ contactForm?.addEventListener('submit', async (e) => {
     btn.textContent = 'Sent';
   } catch {
     setFormStatus(
-      'Could not send right now. Please email alenroy1000@gmail.com or call +91 75109 95173.',
+      'Could not send right now. Please email export@royaletradingco.com or call +91 75109 95173.',
       'is-error'
     );
     btn.textContent = originalLabel;
