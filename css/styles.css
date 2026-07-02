@@ -737,6 +737,7 @@ address {
 
 .credentials-header {
   max-width: 760px;
+  margin-inline: auto;
 }
 
 .credentials-grid {
@@ -833,6 +834,53 @@ address {
   text-align: center;
   font-size: 0.82rem;
   line-height: 1.6;
+  color: var(--ink-muted);
+}
+
+/* Certification Logos */
+.cert-banner-label {
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: var(--space-2xl) auto var(--space-md);
+}
+
+.cert-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-xl);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.cert-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  opacity: 0.75;
+  transition: opacity var(--transition);
+}
+
+.cert-badge:hover {
+  opacity: 1;
+}
+
+.cert-badge svg {
+  width: 42px;
+  height: 42px;
+  color: var(--forest);
+}
+
+.cert-badge span {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   color: var(--ink-muted);
 }
 
